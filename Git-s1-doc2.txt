@@ -1,0 +1,25 @@
+¿Qué son las intenciones de Android?
+Las intenciones son un tema fundamental para los desarrolladores de Android. Es imposible crear aplicaciones de Android sin usar intents.
+¿Qué son las intenciones?
+Imagina un partido de fútbol: los jugadores pasan la pelota por el campo con el objetivo de enviarla a la portería de su oponente. El balón se pasa del portero del equipo a sus defensores. Luego, encuentra su camino hacia los mediocampistas, y si las cosas salen según lo planeado, uno de los delanteros lo envía a la red del oponente. ¡Gran trabajo!
+En Android, la capacidad de enviar mensajes es posible gracias al objeto Intent. Con la ayuda de las intenciones, los componentes de Android pueden solicitar la funcionalidad de otros componentes de Android. Cuando abres la aplicación de Instagram en tu teléfono y la usas para tomar una foto, usas una intención. Las intenciones también ayudan a comunicarse entre las partes de una aplicación; el movimiento de una pantalla (actividad) a otra es posible gracias a las intenciones.
+Mírelo de esta manera: todos los componentes (aplicaciones y pantallas) del dispositivo Android están aislados. La única forma en que se comunican entre sí es con la ayuda de intenciones.
+Iniciar actividades con intenciones
+Como se mencionó anteriormente, puede usar intents para iniciar diferentes componentes: actividades, servicios, etc.
+Para iniciar una actividad, utilizará el método startActivity (intent).
+A continuación, se muestra un fragmento de código que demuestra cómo iniciar otra actividad desde una intención.
+ 
+Primero, creamos un nuevo objeto Intent y le pasamos la clase de actividad Numbers. Luego, comenzamos una nueva actividad con esa intención.
+Tipos de intenciones
+Android admite dos tipos de intenciones: explícitas e implícitas. Usamos intenciones explícitas cuando nombramos explícitamente la clase de la actividad objetivo que manejará la intención. Las intenciones implícitas se utilizan sin un nombre de clase, donde Android ayudará a determinar una actividad adecuada para manejar la intención.
+Ejemplo de intención explícita
+El fragmento de código de código anterior es un ejemplo de intención explícita. Échale un vistazo de nuevo.
+ 
+Aquí, NumbersActivity es el componente de destino de nuestra MainActivity. Esto significa que NumbersActivity es el componente definido al que llamará el sistema Android. Es importante tener en cuenta (como en el ejemplo anterior), que las intenciones explícitas se usan típicamente dentro de una aplicación, porque eso le da al desarrollador el mayor control sobre qué clase se lanzará.
+Ejemplo de intención implícita
+Aquí hay una intención implícita:
+ 
+Si tiene el código anterior en su base de código, su aplicación puede iniciar un componente de navegador para una determinada URL a través de una intención. 
+Más información sobre este texto de origenPara obtener más información sobre la traducción, se necesita el texto de origen
+Enviar comentarios
+Paneles laterales
