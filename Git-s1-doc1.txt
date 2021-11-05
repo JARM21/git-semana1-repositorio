@@ -1,0 +1,12 @@
+MongoDB: la base de datos para aplicaciones modernas
+MongoDB es una base de datos distribuida de propósito general, basada en documentos, creada para desarrolladores de aplicaciones modernas y para la era de la nube. Ninguna base de datos te hace más productivo. Es utilizado por millones de desarrolladores para impulsar los productos y servicios más innovadores del mundo.
+MongoDB es una base de datos de documentos, lo que significa que almacena datos. Creemos que esta es la forma más natural de pensar sobre los datos, y es mucho más expresiva y poderosa que el modelo tradicional de filas / columnas.
+MongoDB es la forma más natural y productiva de trabajar con datos. Admite matrices y objetos anidados como valores. También permite esquemas flexibles y dinámicos.
+Potente lenguaje de consulta
+Mongo DB utiliza un lenguaje de consulta rico y expresivo que le permite filtrar y ordenar por cualquier campo, sin importar cuán anidado esté dentro de un documento. Proporciona soporte para agregaciones y otros casos de uso modernos como la búsqueda basada en geografía, la búsqueda de gráficos y la búsqueda de texto.
+Más que una base de datos
+MongoDB es una verdadera plataforma de datos con un conjunto completo de herramientas para que el trabajo con datos sea muy fácil para todos, desde desarrolladores hasta analistas y científicos de datos.
+Gráficos
+Los gráficos son la forma más rápida de crear visualizaciones de datos de MongoDB. Todos los gráficos se crean para el modelo de documento. Puede visualizar datos en vivo de cualquiera de sus instancias de MongoDB.
+Brújula
+Puede buscar, visualizar y trabajar con sus datos a través de una GUI intuitiva. También puede manipular sus datos con una poderosa herramienta de edición visual. 
